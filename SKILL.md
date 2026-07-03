@@ -137,6 +137,10 @@ A functional OKR is a **contribution path**. The team picks 1-2 parent KRs they 
 
 **Step 4 — Run the ladder-up test.** For each functional KR, write the one-line answer to: *"If we hit this KR, which parent KR moves, and by roughly how much?"* If you can't answer it, the KR is orphan (failure mode #10) — drop it or rewrite.
 
+### Cascade mode escalation rule
+
+**If the user requests Cascade mode but has not supplied parent OKRs**, ask once — a single clear question listing what is needed (parent Objectives and KRs, with their owners and cycle). Do NOT synthesise or invent parent OKRs from guesswork; fabricated parent context produces functional OKRs that are untethered from strategy and will cascade the wrong direction. Block until the parent set is provided.
+
 ### Counter-cascade: bottom-up input
 
 Wodtke and Lamorte both flag this. Strict top-down cascading kills ownership. Best practice: leadership sets ~60% of functional OKRs via cascade; functions propose ~40% from their own ground-truth view. Surface the bottom-up portion explicitly in Cascade mode output.
@@ -387,5 +391,11 @@ Never rubber-stamp. The skill exists because most OKR sets in the wild fail at l
 - **Australian English** in all output (organise, behaviour, recognise, prioritise).
 - **No em dashes** — use hyphens with spaces or commas.
 - **No § / ¶ / № typographical shorthand** — spell it out.
-- **Plain operator voice in skill output.** Skill output is a working document, not Caldwell banter. Save the persona for chat.
+- **Plain operator voice in skill output.** Skill output is a working document, not the chat persona — keep output in plain operator voice.
 - When the user mentions Sophiie or Orbit, use the function names from those orgs in examples; otherwise stay generic.
+
+---
+
+Sync home: ~/code/claude-okr-structuring (public twin). Edit the private ~/.claude copy first; copy + push to sync.
+
+v1.1 — 2026-07-03
