@@ -1,3 +1,5 @@
+> **⚠️ Moved (2026-07-03):** now maintained in [justinwilliames/skills](https://github.com/justinwilliames/skills) — this repo is archived.
+
 # claude-okr-structuring
 
 A Claude skill for writing, cascading, and auditing OKRs (Objectives and Key Results) against the published canon — Grove, Doerr, Wodtke, Lamorte, Castro, Klau. Outputs ship-ready Notion-shaped structure in one of two house shapes.
